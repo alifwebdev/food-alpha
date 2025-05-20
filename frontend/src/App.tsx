@@ -4,7 +4,8 @@ function App() {
   return (
     <>
       <div className="flex flex-col items-center justify-center min-h-svh">
-        <Button className=" bg ">Click me</Button>
+        <h1 className="text-purple-900 text-5xl">Food-Alpha</h1>
+        <Button variant={"outline"}>Click me</Button>
       </div>
     </>
   );
