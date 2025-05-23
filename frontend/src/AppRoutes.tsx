@@ -13,6 +13,14 @@ const AppRoutes = () => {
           </Layout>
         }
       />
+      <Route
+        path="/search/:city"
+        element={
+          <Layout showHero={false}>
+            <span>SearchPage</span>
+          </Layout>
+        }
+      />
       <Route path="/about" element={<span>About</span>} />
       <Route path="/contact" element={<span>Contact Us</span>} />
       <Route path="*" element={<Navigate to="/" />} />
