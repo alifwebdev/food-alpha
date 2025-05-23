@@ -6,7 +6,7 @@ import mongoose from "mongoose";
 
 mongoose
   .connect(process.env.MONGODB_CONNECTION_STRING as string)
-  .then(() => console.log("MongoDB connected"));
+  .then(() => console.log("Database Connected"));
 
 const app = express();
 
